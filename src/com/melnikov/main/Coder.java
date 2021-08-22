@@ -1,9 +1,8 @@
-package com.melnikov.decoder;
+package com.melnikov.main;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Scanner;
 
 public class Coder {
     public static void codeFile(Path input, Path output, int shift) throws IOException {

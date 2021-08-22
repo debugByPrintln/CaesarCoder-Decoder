@@ -1,4 +1,4 @@
-package com.melnikov.decoder;
+package com.melnikov.main;
 
 import java.io.IOException;
 import java.nio.file.Path;
