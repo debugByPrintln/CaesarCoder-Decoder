@@ -45,6 +45,7 @@ public class Coder {
             }
 
         }
+
         Files.writeString(output, ciphertext);
     }
 
