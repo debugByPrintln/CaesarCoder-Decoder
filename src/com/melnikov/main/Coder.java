@@ -48,6 +48,7 @@ public class Coder {
         Files.writeString(output, ciphertext);
     }
 
+
     public static void decodeFile(Path input, Path output, int shift) throws IOException{
         String ciphertext = Files.readString(input);
         String decryptMessage = "";
