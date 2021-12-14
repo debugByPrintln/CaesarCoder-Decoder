@@ -10,7 +10,9 @@ public class Runner {
 
         System.out.println("Do you want to code or decode the message? (1 - code, 2 - decode)");
 
-        if (scanner.nextInt() == 1){
+        int userMove = scanner.nextInt();
+
+        if (userMove == 1){
             System.out.println("Type shift: ");
             int shift = scanner.nextInt();
             System.out.println("Type path to text file that you want to code: ");
@@ -31,7 +33,7 @@ public class Runner {
             }
         }
 
-        else if (scanner.nextInt() == 2){
+        else if (userMove == 2){
             System.out.println("Type shift: ");
             int shift = scanner.nextInt();
             System.out.println("Type path to text file that you want to decode: ");
